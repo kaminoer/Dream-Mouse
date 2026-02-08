@@ -24,7 +24,7 @@ This app connects to your Daydream controller via Bluetooth and lets you use it 
 ### Installation on Windows
 
 1. Download the [zip file](https://github.com/kaminoer/Dream-Mouse/releases/download/v1.0/Dream.Mouse-v1.0-Windows.zip).
-2. Unzip the file and open Dream Mouse.exe
+2. Unzip the archive.
 3. Pair your Daydream controller. If you've already paired the controller earlier and it's off/not connected, press the home (circle) button to connect.
 4. Open Dream Mouse.exe
 
