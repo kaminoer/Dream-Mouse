@@ -1,4 +1,4 @@
-# Dream Mouse
+# Dream Mouse Windows/Android
 <p align="center"><img width="150" height="150" alt="icon" src="https://github.com/user-attachments/assets/0203090e-a42c-4221-a4bc-7946ad192229" /><br>This app turns your Google Daydream VR controller into a wireless mouse</p>
 
 <p align="center"><img width="745" height="626" alt="app" src="https://github.com/user-attachments/assets/8975642e-4359-47f3-b9f3-f1d777213655" /><br><i>Dream Mouse on Windows</i></p>
