@@ -1,4 +1,4 @@
-# Dream Mouse 🎮🖱️
+# Dream Mouse
 <p align="center"><img width="397" height="397" alt="icon" src="https://github.com/user-attachments/assets/0203090e-a42c-4221-a4bc-7946ad192229" /></p>
 
 This app turns your Google Daydream VR controller into a wireless mouse. 
@@ -9,7 +9,7 @@ I had one of these controllers lying around collecting dust and thought I'd give
 
 ---
 
-## What Does It Do?
+## What does it do?
 
 This app connects to your Daydream controller via Bluetooth and lets you use it as a mouse. You can move the cursor by swiping on the touchpad or by waving the controller around (gyro mode). It's pretty neat for presentations or couch browsing.
 
