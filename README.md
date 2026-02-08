@@ -132,6 +132,11 @@ Prevents the screen from sleeping.
 
 ---
 
+## Known issues
+The cursor may appear dark on some older Android devices with dark mode enabled (observed on an older Xiaomi device running Android 10). The workaround is to disable dark mode, either system wide or just for the Dream Mouse app. 
+
+---
+
 ## Acknowledgments
 
 - [Daydream2HID](https://hardfault.life/p/daydream-controller). Super helpful if you want to learn how the controller works.
