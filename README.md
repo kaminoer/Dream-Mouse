@@ -63,7 +63,7 @@ Once connected, you're good to go! You can now dial in your settings if required
 | **Volume Up** | Scroll up |
 | **Volume Down** | Scroll down |
 
-In the gyro mode, hold the app button and physically move the controller to move your cursor. Great for when you want to feel like a wizard.
+To use the gyro mode, hold the app button and physically move the controller to move your cursor. Great for when you want to feel like a wizard.
 
 ---
 
