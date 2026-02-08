@@ -5,7 +5,8 @@ This app turns your Google Daydream VR controller into a wireless mouse.
 
 I had one of these controllers lying around collecting dust and thought I'd give it a try and see if it's possible to use it as a mouse.
 
-<img width="745" height="626" alt="app" src="https://github.com/user-attachments/assets/8975642e-4359-47f3-b9f3-f1d777213655" />
+<p align="center"><img width="745" height="626" alt="app" src="https://github.com/user-attachments/assets/8975642e-4359-47f3-b9f3-f1d777213655" /></p>
+
 ---
 
 ## What Does It Do?
