@@ -108,7 +108,7 @@ When enabled, minimizing the app sends it to your system tray instead of the tas
 
 ## Acknowledgments
 
-- [Daydream2HID]([https://github.com/hbldh/bleak](https://hardfault.life/p/daydream-controller). Super helpful if you want to learn how the controller works.
+- [Daydream2HID](https://hardfault.life/p/daydream-controller). Super helpful if you want to learn how the controller works.
 
 ---
 
