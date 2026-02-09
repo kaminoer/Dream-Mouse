@@ -83,7 +83,7 @@ Ignores tiny movements when using gyro mode. Helps prevent cursor drift when you
 ### Touch Deadzone
 Same idea but for the touchpad. If the cursor moves when you're just resting your finger, increase this a bit.
 
-### TEST MODE
+### Test Mode
 When enabled:
 - Shows a visual representation of your controller
 - You can see all button presses and touch position in real-time
