@@ -1,11 +1,12 @@
 # Dream Mouse for Windows/Android
 <p align="center"><img width="150" height="150" alt="icon" src="https://github.com/user-attachments/assets/0203090e-a42c-4221-a4bc-7946ad192229" /><br>This app turns your Google Daydream VR controller into a wireless mouse on Windows and Android devices</p>
 
-<p align="center"><img width="745" height="626" alt="app" src="https://github.com/user-attachments/assets/8975642e-4359-47f3-b9f3-f1d777213655" /><br><i>Dream Mouse on Windows</i></p>
+<p align="center"><img width="745" height="720" alt="app" src="https://github.com/user-attachments/assets/b67ce969-6475-4f30-b0d3-18f2f808ded0" /><br><i>Dream Mouse on Windows</i></p>
 
 <p align="center"><img width="745" height="800" alt="app" src="https://github.com/user-attachments/assets/97841889-acf3-4e29-954d-431a5c76aded" /><br><i>Dream Mouse on Android</i></p>
 
 ---
+
 
 
 ## What does it do?
@@ -46,9 +47,10 @@ This app connects to your Daydream controller via Bluetooth and lets you use it 
 
 ### Connecting
 
-1. Make sure the controller is lying flat on a stable surface. This is required for calibration. Don't touch the controller.
-2. Click or tap **Connect** in Dream Mouse.
-3. Wait for it to find your controller (takes a few seconds), calibrate, and connect.
+1. Connect the controller to your device in Bluetooth settings. If it's paired, it should auto connect when you press the home (circle) button.
+2. Make sure the controller is lying flat on a stable surface. This is required for calibration. Don't touch the controller.
+3. Click or tap **Connect** in Dream Mouse.
+4. Wait for it to find your controller (takes a few seconds), calibrate, and connect.
 
 Once connected, you're good to go! You can now dial in your settings if required.
 
