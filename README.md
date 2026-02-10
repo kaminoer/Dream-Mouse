@@ -114,6 +114,9 @@ When enabled, mouse control is disabled. Instead, you can see a live 2D visualiz
 - **Scroll Strength**: How far page scrolls per click.
 - **Keep Screen On**: Prevents device from sleeping while using the controller.
 
+### Windows Specific Settings
+- **Minimize to System Tray**: Sends the app to system tray instead of the taskbar when minimized. Useful if you want to hide it running in the background.
+
 ---
 
 ## Tips
