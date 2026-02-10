@@ -115,7 +115,7 @@ When enabled, mouse control is disabled. Instead, you can see a live 2D visualiz
 - **Keep Screen On**: Prevents device from sleeping while using the controller.
 
 ### Windows Specific Settings
-- **Minimize to System Tray**: Sends the app to system tray instead of the taskbar when minimized. Useful if you want to hide it running in the background.
+- **Minimize to System Tray**: Sends the app to system tray instead of the taskbar when minimized. Useful if you want to hide it and keep it running in the background.
 
 ---
 
