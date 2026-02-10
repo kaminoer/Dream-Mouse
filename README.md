@@ -42,7 +42,7 @@ https://github.com/user-attachments/assets/4a714923-f988-408c-a8d3-2752c76ea7af
 5. Pair your controller using Android's Bluetooth settings.
    - *Daydream*: Hold the Home (circle) button.
    - *Gear VR*: Hold Home (house) until the light flashes.
-6. Find and open the Dream Mouse app.
+6. Find and open the Dream Mouse app. When asked, give the app permission to search for nearby devices and show notifications.
 7. Tap **Enable Accessibility** -> **OPEN SETTINGS**.
 8. Find Dream Mouse in Downloaded Apps and enable it to give permission to control the mouse.
 
