@@ -1,147 +1,145 @@
 # Dream Mouse for Windows/Android
-<p align="center"><img width="150" height="150" alt="icon" src="https://github.com/user-attachments/assets/0203090e-a42c-4221-a4bc-7946ad192229" /><br>This app turns your Google Daydream VR controller into a wireless mouse on Windows and Android devices</p>
-
-<p align="center"><img width="745" height="720" alt="app" src="https://github.com/user-attachments/assets/b67ce969-6475-4f30-b0d3-18f2f808ded0" /><br><i>Dream Mouse on Windows</i></p>
-
-<p align="center"><img width="745" height="800" alt="app" src="https://github.com/user-attachments/assets/97841889-acf3-4e29-954d-431a5c76aded" /><br><i>Dream Mouse on Android</i></p>
+<p align="center"><img width="150" height="150" alt="icon" src="https://github.com/user-attachments/assets/0203090e-a42c-4221-a4bc-7946ad192229" /><br>This app turns your Google Daydream or Samsung Gear VR controller into a wireless mouse on Windows and Android devices</p>
 
 ---
-
-
 
 ## What does it do?
 
-This app connects to your Daydream controller via Bluetooth and lets you use it as a mouse. You can move the cursor by swiping on the touchpad or by waving the controller around (gyro mode). It's pretty neat for presentations or couch browsing.
+Dream Mouse connects to your Daydream or Gear VR controller via Bluetooth and lets you use it as a wireless mouse. You can move the cursor by swiping on the touchpad or by waving the controller around (gyro mode). It features a fully customizable input system, letting you bind buttons to keyboard keys, media controls, and a radial menu for quick actions.
 
 ---
+  
+https://github.com/user-attachments/assets/fd794340-fdf4-462a-b036-5d934026028d 
+
+<p align="center"><i>GearVR on Android</i></p>
+
+https://github.com/user-attachments/assets/4a714923-f988-408c-a8d3-2752c76ea7af
+
+<p align="center"><i>Daydream on Windows</i></p>
 
 ## Getting started
 
 ### What you need
 
-- A Google Daydream controller
+- **Google Daydream controller** OR **Samsung Gear VR Controller**
 - Windows PC with Bluetooth (macOS and Linux support coming soon) or an Android 8.0+ phone/tablet
 
 ### Installation on Windows
 
-1. Download the [zip file](https://github.com/kaminoer/Dream-Mouse/releases/download/v1.0.1/Dream.Mouse-v1.0.1-Windows.zip).
+1. Download the [zip file](https://github.com/kaminoer/Dream-Mouse/releases/download/v2.0/Dream.Mouse-v2.0-Windows.zip).
 2. Unzip the archive.
-3. Pair your Daydream controller. If you've already paired the controller earlier and it's off/not connected, press the home (circle) button to connect.
-4. Open Dream Mouse.exe
+3. Pair your controller in Windows via Bluetooth.
+   - *Daydream*: Hold the Home (circle) button.
+   - *Gear VR*: Hold Home (house) until the light flashes.
+4. Open Dream Mouse.exe.
 
 ### Installation on Android
 
-1. Download the [apk file](https://github.com/kaminoer/Dream-Mouse/releases/download/v1.0/Dream.Mouse-v1.0-Android.apk).
+1. Download the [apk file](https://github.com/kaminoer/Dream-Mouse/releases/download/v2.0/Dream.Mouse-v2.0-Android.apk).
 2. Use a file browser to open the apk on your Android device.
 3. Install the app. You may have to allow installation from unknown sources.
-4. If you are on Android 13 or later, [allow restricted settings](https://support.google.com/android/answer/12623953?hl=en) for Dream Mouse. This is required to give the app permissions to Android Accessibility, and allow it to show a cursor and control the mouse.
-5. Pair your Daydream controller using Android's Bluetooth settings. If you've already paired the controller earlier and it's off/not connected, press the home (circle) button to connect.
-6. Find the Dream Mouse app in your app drawer or home screen.
-7. Open Dream Mouse. Allow it to find nearby devices and show notifications when asked.
-8. Tap **Enable Accessibility**.
-9. Tap **OPEN SETTINGS**.
-10. Look for Downloaded apps and Dream Mouse. Depending on your Android version and phone, this may look different.
-11. Enable Dream Mouse in your Accessibility settings to give it permission to control the mouse.
+4. If you are on Android 13 or later, [allow restricted settings](https://support.google.com/android/answer/12623953?hl=en) for Dream Mouse. This is required to give the app permissions to Android Accessibility.
+5. Pair your controller using Android's Bluetooth settings.
+   - *Daydream*: Hold the Home (circle) button.
+   - *Gear VR*: Hold Home (house) until the light flashes.
+6. Find and open the Dream Mouse app.
+7. Tap **Enable Accessibility** -> **OPEN SETTINGS**.
+8. Find Dream Mouse in Downloaded Apps and enable it to give permission to control the mouse.
+
+---
 
 ## How to use
 
 ### Connecting
 
-1. Connect the controller to your device in Bluetooth settings. If it's paired, it should auto connect when you press the home (circle) button.
-2. Make sure the controller is lying flat on a stable surface. This is required for calibration. Don't touch the controller.
-3. Click or tap **Connect** in Dream Mouse.
-4. Wait for it to find your controller (takes a few seconds), calibrate, and connect.
+1. Turn on the controller and make sure it's paired.
+2. Ensure the controller is lying flat on a stable surface for calibration.
+3. The app will auto-detect whether you are using a Daydream or Gear VR controller. Alternatively, if you own both and want to specify the one you'd like to connect to, select your controller manually in Controller Type.
+4. Click or tap **Connect** in Dream Mouse.
+5. If it's your first time running the app, the controller connects with Test Mode enabled (on Android, you may have to scroll down to see it). Once you've tested your controller, disable Test Mode to control the mouse.
 
-Once connected, you're good to go! You can now dial in your settings if required.
+### Default Controls
 
-### Controls
+Controls are fully customizable in the **Button Bindings** tab (Windows only). Here are the defaults:
 
-| Controller | Action |
-|------------|--------|
-| **Touchpad swipe** | Move cursor |
-| **Touchpad click** | Left click |
-| **Home button** (circle) | Right click on Windows / Long press on Android |
-| **App button** (line) + **wave controller** | Gyro mouse mode |
-| **Volume Up** | Scroll up |
-| **Volume Down** | Scroll down |
+| Daydream | Gear VR | Default Action |
+|----------|---------|----------------|
+| **Touchpad** | **Touchpad** | Move cursor (Swipe) |
+| **Click Touchpad** | **Trigger** / **Click Touchpad** | Left Click |
+| **Home Button (○)** | **Home Button (🏠)** | Right Click |
+| **App Button** (—) | **Back Button** (↩) | Gyro Mouse - Hold (Windows) / Toggle (Android) and wave) |
+| **Vol Up** | **Vol Up** | Scroll Up |
+| **Vol Down** | **Vol Down** | Scroll Down |
 
-To use the gyro mode, hold the app button and physically move the controller to move your cursor. Great for when you want to feel like a wizard.
+---
+
+## Windows exclusive features
+
+### Custom Button Bindings
+Go to the **Button Bindings** tab to remap any button on the controller to:
+- **Mouse Buttons**: Left/Right/Middle click, scroll.
+- **Keyboard Keys**: Enter, Space, Esc, Arrows, etc.
+- **System Actions**: Copy, Paste, Alt-Tab, Media Play/Pause, Volume Mute, etc.
+- **Trigger Modes**: Set actions to trigger once, hold (while pressed), or toggle (on/off).
+<img width="689" height="315" alt="bind_win" src="https://github.com/user-attachments/assets/71980cab-b064-4e8d-aeae-e71a3bd999cb" />
+
+### Radial Menu
+Bind any button to the **Radial Menu** action to unlock 8 extra virtual buttons.
+1. Hold the bound button to make the menu appear at your cursor.
+2. Move your mouse towards a slice (Play, Copy, Paste, etc.).
+3. Release the button to execute the action.
+You can customize the labels, colors, and actions for each slot in the **Radial Menu** tab.
+<img width="695" height="393" alt="radial_win" src="https://github.com/user-attachments/assets/607cf5f2-c095-4cfa-9ca3-6d6a0316ff1b" />
+<img width="365" height="361" alt="radial2_win" src="https://github.com/user-attachments/assets/07b235bc-1889-4f18-bb73-bda21aa73597" />
 
 ---
 
 ## Settings
 
-### Touch Sensitivity
-How fast the cursor moves when you swipe on the touchpad. Crank it up if you want to zoom across the screen, lower it for precision work.
+### Controller options
+- **Controller Type**: Defaults to **Auto-detect**, but you can force Daydream or Gear VR mode if needed.
+- **Mouse API (Windows)**: Choose between `SendInput` (Recommended, works in games and fullscreen apps) or `Pynput` (Desktop/windowed apps only).
 
-### Gyro X Speed / Gyro Y Speed
-Controls how sensitive the gyro mouse is when you're waving the controller around. If the cursor is flying off the screen, turn these down. If it feels sluggish, bump them up.
-
-### Gyro Deadzone
-Ignores tiny movements when using gyro mode. Helps prevent cursor drift when you're trying to hold the controller still. Higher = more stable but less responsive.
-
-### Touch Deadzone
-Same idea but for the touchpad. If the cursor moves when you're just resting your finger, increase this a bit.
+### Sensitivity
+- **Touch Sensitivity**: Speed of the touchpad cursor.
+- **Gyro X/Y Speed**: Sensitivity of the motion controls.
+- **Deadzone**: Helps prevent drift by ignoring tiny unintentional movements.
 
 ### Test Mode
-When enabled:
-- Shows a visual representation of your controller
-- You can see all button presses and touch position in real-time
-- **Mouse control is disabled** so you can mess around without your cursor going crazy
+When enabled, mouse control is disabled. Instead, you can see a live 2D visualizer of your controller inputs. Use this to test buttons and calibration without your mouse flying around the screen. Note that it shows the Daydream controller even if Gear VR is connected. I may update this at some point.
 
-Use it to get your settings dialed in or just to see if everything is working. Turn it off when you actually want to use it as a mouse.
-
-### Minimize to System Tray (Windows only)
-When enabled, minimizing the app sends it to your system tray instead of the taskbar. Nice if you want it running in the background without cluttering things up. Double-click the tray icon to bring it back.
-
-### Enable Cursor (Android only)
-Shows or hides the cursor.
-
-### Cursor Size (Android only)
-Controls the size of the cursor. Useful if you want to sit back and control your Android device from a distance.
-
-### Scroll Strength (Android only)
-Controls how far the page scrolls with volume buttons.
-
-### Keep Screen On (Android only)
-Prevents the screen from sleeping.
+### Android Specific Settings
+- **Enable Cursor**: Shows or hides the mouse cursor overlay.
+- **Cursor Size**: Adjusts how big the pointer looks.
+- **Scroll Strength**: How far page scrolls per click.
+- **Keep Screen On**: Prevents device from sleeping while using the controller.
 
 ---
 
 ## Tips
 
-- **Calibration matters** - Keep the controller still and flat when it's calibrating. If the gyro feels off, disconnect and reconnect.
-
-- **Start with TEST MODE on** - Get familiar with how the touchpad maps to movement before going live.
-
-- **Gyro is for fun, touchpad is for precision** - The gyro mode is cool but the touchpad gives you more control.
-
-- **Battery** - The Daydream controller uses a rechargeable battery. If things get wonky, it might just need a charge.
+- **Calibration matters**: Keep the controller still and flat when connecting.
+- **Drifting?** If the cursor starts drifting in gyro mode, try increasing the **Gyro Deadzone** or disconnecting and reconnecting while keeping the controller flat.
+- **Radial Menu**: Try binding the Radial Menu to the "Home" or "App" button for quick access to media controls or copy/paste while browsing.
+- **Battery**: If things get wonky, your controller might just need a charge or a new battery.
 
 ---
 
 ## Troubleshooting
 
 **Can't find the controller?**
-- Make sure Bluetooth is on
-- Press the home button on the controller to wake it up
-- Try bringing it closer to your PC / Android device
-- Make sure it's not connected to something else
+- Ensure Bluetooth is on and the controller is paired in system settings.
+- Waking the controller (press Home) *before* clicking **Connect** often helps.
 
-**Cursor drifting in gyro mode?**
-- Increase the gyro deadzone
-- Try recalibrating by reconnecting
-
----
-
-## Known issues
-The cursor may appear dark on some older Android devices with dark mode enabled (observed on an older Xiaomi device running Android 10). The workaround is to disable dark mode, either system wide or just for the Dream Mouse app. 
+**Controller connects but disconnects immediately?**
+- Battery might be low.
+- Try unpairing and repairing in Windows/Android Bluetooth settings.
 
 ---
 
 ## Acknowledgments
 
-- [Daydream2HID](https://hardfault.life/p/daydream-controller). Super helpful if you want to learn how the controller works.
+- [Daydream2HID](https://hardfault.life/p/daydream-controller) for Daydream reverse engineering info.
 
 ---
 
