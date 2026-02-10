@@ -67,7 +67,7 @@ Controls are fully customizable in the **Button Bindings** tab (Windows only). H
 | **Touchpad** | **Touchpad** | Move cursor (Swipe) |
 | **Click Touchpad** | **Trigger** / **Click Touchpad** | Left Click |
 | **Home Button (○)** | **Home Button (🏠)** | Right Click |
-| **App Button** (—) | **Back Button** (↩) | Gyro Mouse - Hold (Windows) / Toggle (Android) and wave) |
+| **App Button** (—) | **Back Button** (↩) | Gyro Mouse - Hold (Windows) / Toggle (Android) and wave |
 | **Vol Up** | **Vol Up** | Scroll Up |
 | **Vol Down** | **Vol Down** | Scroll Down |
 
