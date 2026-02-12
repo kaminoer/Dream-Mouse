@@ -1,4 +1,4 @@
-# Dream Mouse for Windows/Android
+# Dream Mouse for Windows/Android/Android TVs
 <p align="center"><img width="150" height="150" alt="icon" src="https://github.com/user-attachments/assets/0203090e-a42c-4221-a4bc-7946ad192229" /><br>This app turns your Google Daydream or Samsung Gear VR controller into a wireless mouse on Windows and Android devices</p>
 
 ---
@@ -22,20 +22,20 @@ https://github.com/user-attachments/assets/4a714923-f988-408c-a8d3-2752c76ea7af
 ### What you need
 
 - **Google Daydream controller** OR **Samsung Gear VR Controller**
-- Windows PC with Bluetooth (macOS and Linux support coming soon) or an Android 8.0+ phone/tablet
+- Windows PC with Bluetooth (macOS and Linux support coming soon) or an Android 8.0+ phone/tablet/TV
 
 ### Installation on Windows
 
-1. Download the [zip file](https://github.com/kaminoer/Dream-Mouse/releases/download/v2.0/Dream.Mouse-v2.0-Windows.zip).
+1. Download the [zip file](https://github.com/kaminoer/Dream-Mouse/releases/download/v2.1/Dream.Mouse-v2.1-Windows.zip).
 2. Unzip the archive.
 3. Pair your controller in Windows via Bluetooth.
    - *Daydream*: Hold the Home (circle) button.
    - *Gear VR*: Hold Home (house) until the light flashes.
 4. Open Dream Mouse.exe.
 
-### Installation on Android
+### Installation on Android (Phones & Tablets)
 
-1. Download the [apk file](https://github.com/kaminoer/Dream-Mouse/releases/download/v2.0.1a/Dream.Mouse-v2.0.1a-Android.apk).
+1. Download the [apk file](https://github.com/kaminoer/Dream-Mouse/releases/download/v2.1/Dream.Mouse-v2.1-Android.apk).
 2. Use a file browser to open the apk on your Android device.
 3. Install the app. You may have to allow installation from unknown sources.
 4. If you are on Android 13 or later, [allow restricted settings](https://support.google.com/android/answer/12623953?hl=en) for Dream Mouse. This is required to give the app permissions to Android Accessibility.
@@ -46,17 +46,30 @@ https://github.com/user-attachments/assets/4a714923-f988-408c-a8d3-2752c76ea7af
 7. Tap **Enable Accessibility** -> **OPEN SETTINGS**.
 8. Find Dream Mouse in Downloaded Apps and enable it to give permission to control the mouse.
 
+### Installation on Android TV / FireOS
+
+There is a separate build optimized for Android TVs. This version handles pairing within the app to bypass limitations on some TV operating systems.
+
+1. [Download the Android TV APK](https://github.com/kaminoer/Dream-Mouse/releases/download/v2.1/Dream.Mouse.-v2.1-Android-TVs.apk).
+2. Install the APK on your TV.
+3. Open Dream Mouse.
+5. Click **Enable Accessibility**.
+6. If your Android TV exposes Accessibility settings for apps in the OS Settings, click **OPEN SETTINGS**, find Dream Mouse in Downloaded Apps and enable it to give permission to control the mouse. If your TV OS hides Accessibility settings (common on most Android/Fire TV builds), you may need to grant permission via ADB:
+   `adb shell pm grant com.dreammouse android.permission.WRITE_SECURE_SETTINGS`
+   
+   Run this command from a computer or another device connected to your TV via ADB over WiFi and click **TRY ENABLE** in Dream Mouse.
+
 ---
 
 ## How to use
 
 ### Connecting
 
-1. Turn on the controller and make sure it's paired.
+1. Turn on the controller and make sure it's paired (If your TV OS BT scan doesn't detect the controller, click **Scan & Pair** available in the Android TV Dream Mouse to pair the controller).
 2. Ensure the controller is lying flat on a stable surface for calibration.
 3. The app will auto-detect whether you are using a Daydream or Gear VR controller. Alternatively, if you own both and want to specify the one you'd like to connect to, select your controller manually in Controller Type.
 4. Click or tap **Connect** in Dream Mouse.
-5. If it's your first time running the app, the controller connects with Test Mode enabled (on Android, you may have to scroll down to see it). Once you've tested your controller, disable Test Mode to control the mouse.
+5. If you need to recalibrate later, you can use the **Recalibrate** button.
 
 ### Default Controls
 
@@ -98,21 +111,25 @@ You can customize the labels, colors, and actions for each slot in the **Radial 
 
 ### Controller options
 - **Controller Type**: Defaults to **Auto-detect**, but you can force Daydream or Gear VR mode if needed.
-- **Mouse API (Windows)**: Choose between `SendInput` (Recommended, works in games and fullscreen apps) or `Pynput` (Desktop/windowed apps only).
+- **Recalibrate**: Recalibrate on demand if drift occurs. Remember to put the controller on a flat surface before you click it.
+- **Battery Status**: View current controller battery level.
 
-### Sensitivity
+### Sensitivity & Motion
 - **Touch Sensitivity**: Speed of the touchpad cursor.
 - **Gyro X/Y Speed**: Sensitivity of the motion controls.
 - **Deadzone**: Helps prevent drift by ignoring tiny unintentional movements.
 
-### Test Mode
-When enabled, mouse control is disabled. Instead, you can see a live 2D visualizer of your controller inputs. Use this to test buttons and calibration without your mouse flying around the screen. Note that it shows the Daydream controller even if Gear VR is connected. I may update this at some point.
-
 ### Android Specific Settings
-- **Enable Cursor**: Shows or hides the mouse cursor overlay.
+- **Continuous Scroll**: Lets you hold the volume button to keep scrolling.
+- **Auto Reconnect**: Automatically reconnect if connection is lost.
+- **Quick Actions**: Disconnect or recalibrate directly from the notification.
+- **Enable Cursor**: Shows or hides the mouse cursor overlay. The cursor auto-hides when no device is connected.
 - **Cursor Size**: Adjusts how big the pointer looks.
 - **Scroll Strength**: How far page scrolls per click.
-- **Keep Screen On**: Prevents device from sleeping while using the controller.
+- **Reset to Defaults**: Quickly reset all sliders and toggles.
+- **GearVR Gyro Scale (Gear VR only)**: Adjust raw gyro scale before deadzone offsets.
+- **Acceleration Curve (Experimental)**: Set acceleration from linear (1.0) to faster speeds.
+- **Cursor Smoothing (Experimental)**: Applies an EMA filter to reduce jitter.
 
 ### Windows Specific Settings
 - **Minimize to System Tray**: Sends the app to system tray instead of the taskbar when minimized. Useful if you want to hide it and keep it running in the background.
@@ -121,10 +138,10 @@ When enabled, mouse control is disabled. Instead, you can see a live 2D visualiz
 
 ## Tips
 
-- **Calibration matters**: Keep the controller still and flat when connecting.
-- **Drifting?** If the cursor starts drifting in gyro mode, try increasing the **Gyro Deadzone** or disconnecting and reconnecting while keeping the controller flat.
-- **Radial Menu**: Try binding the Radial Menu to the "Home" or "App" button for quick access to media controls or copy/paste while browsing.
-- **Battery**: If things get wonky, your controller might just need a charge or a new battery.
+- **Calibration matters**: Keep the controller still and flat when connecting and calibrating.
+- **Drifting?** If the cursor starts drifting in gyro mode, try increasing the **Gyro Deadzone** or recalibrating.
+- **Radial Menu** (Windows only): Try binding the Radial Menu to the "Home" or "App" button for quick access to media controls or copy/paste while browsing.
+- **Battery**: Percentage status is displayed in the app. If things get wonky, check if you need a charge or a new battery.
 
 ---
 
@@ -133,10 +150,12 @@ When enabled, mouse control is disabled. Instead, you can see a live 2D visualiz
 **Can't find the controller?**
 - Ensure Bluetooth is on and the controller is paired in system settings.
 - Waking the controller (press Home) *before* clicking **Connect** often helps.
+- On Android TV: Use the app's internal pairing if the OS BT scan doesn't find the controller.
 
 **Controller connects but disconnects immediately?**
-- Battery might be low.
+- Battery might be low. Check the status indicator.
 - Try unpairing and repairing in Windows/Android Bluetooth settings.
+- Enable **Auto Reconnect** in settings.
 
 ---
 
