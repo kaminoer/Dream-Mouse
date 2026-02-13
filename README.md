@@ -59,11 +59,11 @@ There is a separate build optimized for Android TVs. This version handles pairin
    
    Run this command from a computer or another device connected to your TV via ADB over WiFi and click **TRY ENABLE** in Dream Mouse.
 
----
-
 ### Installation on Linux
 
 This is still a work in progress. See [here](https://github.com/kaminoer/Dream-Mouse/releases/tag/v2.1-Linux) for an experimental version.
+
+---
 
 ## How to use
 
