@@ -52,7 +52,7 @@ There is a separate build optimized for Android TVs. This version handles pairin
 
 1. [Download the Android TV APK](https://github.com/kaminoer/Dream-Mouse/releases/download/v2.1/Dream.Mouse.-v2.1-Android-TVs.apk).
 2. Install the APK on your TV.
-3. Open Dream Mouse.
+3. Open Dream Mouse. When asked, give the app permission to search for nearby devices (on older Android versions this is often simply called Bluetooth and/or Location) and show notifications.
 5. Click **Enable Accessibility**.
 6. If your Android TV exposes Accessibility settings for apps in the OS Settings, click **OPEN SETTINGS**, find Dream Mouse in Downloaded Apps and enable it to give permission to control the mouse. If your TV OS hides Accessibility settings (common on most Android/Fire TV builds), you may need to grant permission via ADB:
    `adb shell pm grant com.dreammouse android.permission.WRITE_SECURE_SETTINGS`
