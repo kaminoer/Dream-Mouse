@@ -1,5 +1,5 @@
-# Dream Mouse for Windows/Android/Android TVs
-<p align="center"><img width="150" height="150" alt="icon" src="https://github.com/user-attachments/assets/0203090e-a42c-4221-a4bc-7946ad192229" /><br>This app turns your Google Daydream or Samsung Gear VR controller into a wireless mouse on Windows and Android devices</p>
+# Dream Mouse for Windows/Android/Android TVs/Linux
+<p align="center"><img width="150" height="150" alt="icon" src="https://github.com/user-attachments/assets/0203090e-a42c-4221-a4bc-7946ad192229" /><br>This app turns your Google Daydream or Samsung Gear VR controller into a wireless mouse on Windows, Linux, and Android devices</p>
 
 ---
 
@@ -60,6 +60,10 @@ There is a separate build optimized for Android TVs. This version handles pairin
    Run this command from a computer or another device connected to your TV via ADB over WiFi and click **TRY ENABLE** in Dream Mouse.
 
 ---
+
+### Installation on Linux
+
+This is still a work in progress. See [here](https://github.com/kaminoer/Dream-Mouse/releases/tag/v2.1-Linux) for an experimental version.
 
 ## How to use
 
