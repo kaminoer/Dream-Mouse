@@ -50,7 +50,7 @@ https://github.com/user-attachments/assets/4a714923-f988-408c-a8d3-2752c76ea7af
 
 There is a separate build optimized for Android TVs. This version handles pairing within the app to bypass limitations on some TV operating systems.
 
-1. [Download the Android TV APK](https://github.com/kaminoer/Dream-Mouse/releases/download/v2.1/Dream.Mouse.-v2.1-Android-TVs.apk).
+1. [Download the Android TV APK](https://github.com/kaminoer/Dream-Mouse/releases/download/v2.1a-Android/Dream.Mouse-v2.1a-Android-TVs.apk).
 2. Install the APK on your TV.
 3. Open Dream Mouse. When asked, give the app permission to search for nearby devices (on older Android versions this is often simply called Bluetooth and/or Location) and show notifications.
 5. Click **Enable Accessibility**.
