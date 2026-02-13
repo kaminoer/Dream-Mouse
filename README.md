@@ -22,7 +22,7 @@ https://github.com/user-attachments/assets/4a714923-f988-408c-a8d3-2752c76ea7af
 ### What you need
 
 - **Google Daydream controller** OR **Samsung Gear VR Controller**
-- Windows PC with Bluetooth (macOS and Linux support coming soon) or an Android 8.0+ phone/tablet/TV
+- Windows or Linux PC with Bluetooth (macOS support coming soon) or an Android 8.0+ phone/tablet/TV
 
 ### Installation on Windows
 
