@@ -77,7 +77,7 @@ This is still a work in progress. See [here](https://github.com/kaminoer/Dream-M
 
 ### Default Controls
 
-Controls are fully customizable in the **Button Bindings** tab (Windows only). Here are the defaults:
+Controls are fully customizable in the **Button Bindings** tab (Windows and Linux only). Here are the defaults:
 
 | Daydream | Gear VR | Default Action |
 |----------|---------|----------------|
@@ -90,7 +90,7 @@ Controls are fully customizable in the **Button Bindings** tab (Windows only). H
 
 ---
 
-## Windows exclusive features
+## Windows and Linux exclusive features
 
 ### Custom Button Bindings
 Go to the **Button Bindings** tab to remap any button on the controller to:
@@ -144,7 +144,7 @@ You can customize the labels, colors, and actions for each slot in the **Radial 
 
 - **Calibration matters**: Keep the controller still and flat when connecting and calibrating.
 - **Drifting?** If the cursor starts drifting in gyro mode, try increasing the **Gyro Deadzone** or recalibrating.
-- **Radial Menu** (Windows only): Try binding the Radial Menu to the "Home" or "App" button for quick access to media controls or copy/paste while browsing.
+- **Radial Menu** (Windows and Linux only): Try binding the Radial Menu to the "Home" or "App" button for quick access to media controls or copy/paste while browsing.
 - **Battery**: Percentage status is displayed in the app. If things get wonky, check if you need a charge or a new battery.
 
 ---
