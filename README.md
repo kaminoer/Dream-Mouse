@@ -50,7 +50,7 @@ https://github.com/user-attachments/assets/4a714923-f988-408c-a8d3-2752c76ea7af
 
 There is a separate build optimized for Android TVs. This version handles pairing within the app to bypass limitations on some TV operating systems.
 
-1. [Download the Android TV APK](https://github.com/kaminoer/Dream-Mouse/releases/download/v2.1a-Android/Dream.Mouse-v2.1a-Android-TVs.apk).
+1. [Download the Android TV APK](https://github.com/kaminoer/Dream-Mouse/releases/download/v2.1b-Android-TV/Dream.Mouse-v2.1b-Android-TVs.apk).
 2. Install the APK on your TV.
 3. Open Dream Mouse. When asked, give the app permission to search for nearby devices (on older Android versions this is often simply called Bluetooth and/or Location) and show notifications.
 5. Click **Enable Accessibility**.
@@ -83,7 +83,7 @@ Controls are fully customizable in the **Button Bindings** tab (Windows only). H
 |----------|---------|----------------|
 | **Touchpad** | **Touchpad** | Move cursor (Swipe) |
 | **Click Touchpad** | **Trigger** / **Click Touchpad** | Left Click |
-| **Home Button (○)** | **Home Button (🏠)** | Right Click |
+| **Home Button (○)** | **Home Button (🏠)** | Right Click / Back/Home(Android TV) |
 | **App Button** (—) | **Back Button** (↩) | Gyro Mouse - Hold (Windows) / Toggle (Android) and wave |
 | **Vol Up** | **Vol Up** | Scroll Up |
 | **Vol Down** | **Vol Down** | Scroll Down |
