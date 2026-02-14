@@ -161,6 +161,9 @@ You can customize the labels, colors, and actions for each slot in the **Radial 
 - Try unpairing and repairing in Windows/Android Bluetooth settings.
 - Enable **Auto Reconnect** in settings.
 
+**Mouse pointer is laggy, buttons lag or are often unresponsive?**
+- This usually means that your device is not powerful enough to process the input commands from Dream Mouse in real time. Older generation Android TV systems often exhibit this behavior. Another reason could be the quality of the Bluetooth connection.
+
 ---
 
 ## Acknowledgments
