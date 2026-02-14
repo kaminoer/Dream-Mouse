@@ -83,8 +83,8 @@ Controls are fully customizable in the **Button Bindings** tab (Windows only). H
 |----------|---------|----------------|
 | **Touchpad** | **Touchpad** | Move cursor (Swipe) |
 | **Click Touchpad** | **Trigger** / **Click Touchpad** | Left Click |
-| **Home Button (○)** | **Home Button (🏠)** | Right Click / Back/Home(Android TV) |
-| **App Button** (—) | **Back Button** (↩) | Gyro Mouse - Hold (Windows) / Toggle (Android) and wave |
+| **Home Button (○)** | **Home Button (🏠)** | - Windows, Linux: Right Click <br>- Android: Long press <br> - Android TV: Click once: go back, hold: go home |
+| **App Button** (—) | **Back Button** (↩) | Gyro Mouse - Hold (Windows, Linux) / Toggle (Android) and wave |
 | **Vol Up** | **Vol Up** | Scroll Up |
 | **Vol Down** | **Vol Down** | Scroll Down |
 
