@@ -26,7 +26,7 @@ https://github.com/user-attachments/assets/4a714923-f988-408c-a8d3-2752c76ea7af
 
 ### Installation on Windows
 
-1. Download the [zip file](https://github.com/kaminoer/Dream-Mouse/releases/download/v2.1/Dream.Mouse-v2.1-Windows.zip).
+1. Download the [zip file](https://github.com/kaminoer/Dream-Mouse/releases/download/v2.2/Dream.Mouse-v2.2-Windows.zip).
 2. Unzip the archive.
 3. Pair your controller in Windows via Bluetooth.
    - *Daydream*: Hold the Home (circle) button.
@@ -35,7 +35,7 @@ https://github.com/user-attachments/assets/4a714923-f988-408c-a8d3-2752c76ea7af
 
 ### Installation on Android (Phones & Tablets)
 
-1. Download the [apk file](https://github.com/kaminoer/Dream-Mouse/releases/download/v2.1b-Android-TV/Dream.Mouse-v2.1b-Android.apk).
+1. Download the [apk file](https://github.com/kaminoer/Dream-Mouse/releases/download/v2.2/Dream.Mouse-v2.2-Android.apk).
 2. Use a file browser to open the apk on your Android device.
 3. Install the app. You may have to allow installation from unknown sources.
 4. If you are on Android 13 or later, [allow restricted settings](https://support.google.com/android/answer/12623953?hl=en) for Dream Mouse. This is required to give the app permissions to Android Accessibility.
@@ -50,7 +50,7 @@ https://github.com/user-attachments/assets/4a714923-f988-408c-a8d3-2752c76ea7af
 
 There is a separate build optimized for Android TVs. This version handles pairing within the app to bypass limitations on some TV operating systems.
 
-1. [Download the Android TV APK](https://github.com/kaminoer/Dream-Mouse/releases/download/v2.1b-Android-TV/Dream.Mouse-v2.1b-Android-TVs.apk).
+1. [Download the Android TV APK](https://github.com/kaminoer/Dream-Mouse/releases/download/v2.2/Dream.Mouse-v2.2-Android-TVs.apk).
 2. Install the APK on your TV.
 3. Open Dream Mouse. When asked, give the app permission to search for nearby devices (on older Android versions this is often simply called Bluetooth and/or Location) and show notifications.
 5. Click **Enable Accessibility**.
@@ -83,8 +83,9 @@ Controls are fully customizable in the **Button Bindings** tab (Windows and Linu
 |----------|---------|----------------|
 | **Touchpad** | **Touchpad** | Move cursor (Swipe) |
 | **Press Touchpad** | **Trigger** / **Press Touchpad** | Left Click/Tap, hold the button on Android for long press |
+| **Tap Touchpad** | **Tap Touchpad** | Left Click/Tap |
 | **Home Button (○)** | **Home Button (🏠)** | - Windows, Linux: Right Click <br> - Android/Android TV: Press once to go back, hold to go home |
-| **App Button** (—) | **Back Button** (↩) | Gyro Mouse - Hold (Windows, Linux) / Toggle (Android) and wave |
+| **App Button** (—) | **Back Button** (↩) | Toggle Gyro Mouse Mode. Wave the controller to move the cursor |
 | **Vol Up** | **Vol Up** | Scroll Up |
 | **Vol Down** | **Vol Down** | Scroll Down |
 
@@ -113,15 +114,17 @@ You can customize the labels, colors, and actions for each slot in the **Radial 
 
 ## Settings
 
-### Controller options
+### Controller Connection
 - **Controller Type**: Defaults to **Auto-detect**, but you can force Daydream or Gear VR mode if needed.
 - **Recalibrate**: Recalibrate on demand if drift occurs. Remember to put the controller on a flat surface before you click it.
 - **Battery Status**: View current controller battery level.
 
-### Sensitivity & Motion
+### Controller Options
 - **Touch Sensitivity**: Speed of the touchpad cursor.
 - **Gyro X/Y Speed**: Sensitivity of the motion controls.
 - **Deadzone**: Helps prevent drift by ignoring tiny unintentional movements.
+- **Touchpad scrolling**: Lets you use the touchpad to scroll when gyro mouse mode is enabled.
+- **Touchpad tap**: Controls whether tapping the touchpad to perform an action is enabled in touchpad mouse mode and gyro mouse mode.
 
 ### Android Specific Settings
 - **Continuous Scroll**: Lets you hold the volume button to keep scrolling.
