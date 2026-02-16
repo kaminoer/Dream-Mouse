@@ -1,11 +1,11 @@
 # Dream Mouse for Windows/Android/Android TVs/Linux
-<p align="center"><img width="150" height="150" alt="icon" src="https://github.com/user-attachments/assets/0203090e-a42c-4221-a4bc-7946ad192229" /><br>This app turns your Google Daydream or Samsung Gear VR controller into a wireless mouse on Windows, Linux, and Android devices</p>
+<p align="center"><img width="150" height="150" alt="icon" src="https://github.com/user-attachments/assets/0203090e-a42c-4221-a4bc-7946ad192229" /><br>This app turns your Google Daydream or Samsung Gear VR controller into a wireless air mouse on Windows, Linux, and Android devices</p>
 
 ---
 
 ## What does it do?
 
-Dream Mouse connects to your Daydream or Gear VR controller via Bluetooth and lets you use it as a wireless mouse. You can move the cursor by swiping on the touchpad or by waving the controller around (gyro mode). It features a fully customizable input system, letting you bind buttons to keyboard keys, media controls, and a radial menu for quick actions.
+Dream Mouse connects to your Daydream or Gear VR controller via Bluetooth and lets you use it as a wireless air mouse. You can move the cursor by swiping on the touchpad or by waving the controller around (gyro mode). It features a fully customizable input system, letting you bind buttons to keyboard keys, media controls, and a radial menu for quick actions.
 
 ---
   
