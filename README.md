@@ -102,7 +102,8 @@ Go to the **Button Bindings** tab to remap any button on the controller to:
 - **Keyboard Keys**: Enter, Space, Esc, Arrows, etc.
 - **System Actions**: Copy, Paste, Alt-Tab, Media Play/Pause, Volume Mute, etc.
 - **Trigger Modes**: Set actions to trigger once, hold (while pressed), or toggle (on/off).
-<img width="689" height="315" alt="bind_win" src="https://github.com/user-attachments/assets/71980cab-b064-4e8d-aeae-e71a3bd999cb" />
+<img width="695" height="355" alt="obraz" src="https://github.com/user-attachments/assets/bbd5efce-3517-433a-9651-6f9ed61b8c39" />
+
 
 ### Radial Menu
 Bind any button to the **Radial Menu** action to unlock 8 extra virtual buttons.
