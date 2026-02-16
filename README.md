@@ -89,8 +89,9 @@ Controls are fully customizable in the **Button Bindings** tab (Windows and Linu
 | **Vol Up** | **Vol Up** | Scroll Up |
 | **Vol Down** | **Vol Down** | Scroll Down |
 
-You can perform gestures on Android (for example, drag and drop) by holding the trigger/touchpad click and moving the cursor.
-On Android TV, you can enable Touchpad scrolling in gyro mouse mode and swipe up, down, left, or right on the touchpad to move focus to the next available tile or card in that direction.
+- You can perform gestures on Android (for example, drag and drop) by holding the trigger/touchpad click and moving the cursor.
+- On Android and Windows, you can enable Touchpad scrolling in gyro mouse mode and swipe up or down on the touchpad to scroll.
+- On Android TV, you can enable Touchpad scrolling in gyro mouse mode and swipe up, down, left, or right on the touchpad to move focus to the next available tile or card in that direction.
 
 ---
 
