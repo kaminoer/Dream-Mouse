@@ -1,13 +1,6 @@
 # Dream Mouse for Windows/Android/Android TVs/Linux
-<p align="center"><img width="150" height="150" alt="icon" src="https://github.com/user-attachments/assets/0203090e-a42c-4221-a4bc-7946ad192229" /><br>This app turns your Google Daydream or Samsung Gear VR controller into a wireless air mouse on Windows, Linux, and Android devices</p>
-
----
-
-## What does it do?
-
-Dream Mouse connects to your Daydream or Gear VR controller via Bluetooth and lets you use it as a wireless air mouse. You can move the cursor by swiping on the touchpad or by waving the controller around (gyro mode). It features a fully customizable input system, letting you bind buttons to keyboard keys, media controls, and a radial menu for quick actions.
-
----
+<p align="center"><img width="150" height="150" alt="icon" src="https://github.com/user-attachments/assets/0203090e-a42c-4221-a4bc-7946ad192229" /><br>Dream Mouse turns your Google Daydream or Samsung Gear VR controller into a wireless air mouse on Windows, Linux, and Android devices. It connects to your Daydream or Gear VR controller via Bluetooth and lets you use it as a wireless air mouse. You can move the cursor by swiping on the touchpad or by waving the controller around (gyro mode). It features a fully customizable input system, letting you bind buttons to keyboard keys, media controls, and a radial menu for quick actions.
+</p>
   
 https://github.com/user-attachments/assets/fd794340-fdf4-462a-b036-5d934026028d 
 
@@ -63,8 +56,6 @@ There is a separate build optimized for Android TVs. This version handles pairin
 
 This is still a work in progress. See [here](https://github.com/kaminoer/Dream-Mouse/releases/tag/v2.1-Linux) for an experimental version.
 
----
-
 ## How to use
 
 ### Connecting
@@ -93,8 +84,6 @@ Controls are fully customizable in the **Button Bindings** tab (Windows and Linu
 - On Android and Windows, you can enable Touchpad scrolling in gyro mouse mode and swipe up or down on the touchpad to scroll.
 - On Android TV, you can enable Touchpad scrolling in gyro mouse mode and swipe up, down, left, or right on the touchpad to move focus to the next available tile or card in that direction.
 
----
-
 ## Windows and Linux exclusive features
 
 ### Custom Button Bindings
@@ -114,8 +103,6 @@ Bind any button to the **Radial Menu** action to unlock 8 extra virtual buttons.
 You can customize the labels, colors, and actions for each slot in the **Radial Menu** tab.
 <img width="695" height="393" alt="radial_win" src="https://github.com/user-attachments/assets/607cf5f2-c095-4cfa-9ca3-6d6a0316ff1b" />
 <img width="365" height="361" alt="radial2_win" src="https://github.com/user-attachments/assets/07b235bc-1889-4f18-bb73-bda21aa73597" />
-
----
 
 ## Settings
 
@@ -146,16 +133,12 @@ You can customize the labels, colors, and actions for each slot in the **Radial 
 ### Windows Specific Settings
 - **Minimize to System Tray**: Sends the app to system tray instead of the taskbar when minimized. Useful if you want to hide it and keep it running in the background.
 
----
-
 ## Tips
 
 - **Calibration matters**: Keep the controller still and flat when connecting and calibrating.
 - **Drifting?** If the cursor starts drifting in gyro mode, try increasing the **Gyro Deadzone** or recalibrating.
 - **Radial Menu** (Windows and Linux only): Try binding the Radial Menu to the "Home" or "App" button for quick access to media controls or copy/paste while browsing.
 - **Battery**: Percentage status is displayed in the app. If things get wonky, check if you need a charge or a new battery.
-
----
 
 ## Troubleshooting
 
@@ -172,12 +155,8 @@ You can customize the labels, colors, and actions for each slot in the **Radial 
 **Mouse pointer is laggy, buttons lag or are often unresponsive?**
 - This usually means that your device is not powerful enough to process the input commands from Dream Mouse in real time. Older generation Android TV systems often exhibit this behavior. Another reason could be the quality of the Bluetooth connection.
 
----
-
 ## Acknowledgments
 
 - [Daydream2HID](https://hardfault.life/p/daydream-controller) for Daydream reverse engineering info.
-
----
 
 *Found a bug? Got a feature idea? Open an issue or PR!*
