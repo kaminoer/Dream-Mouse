@@ -19,7 +19,7 @@ https://github.com/user-attachments/assets/4a714923-f988-408c-a8d3-2752c76ea7af
 
 ### Installation on Windows
 
-1. Download the [zip file](https://github.com/kaminoer/Dream-Mouse/releases/download/v2.2/Dream.Mouse-v2.2-Windows.zip).
+1. Download the [zip file](https://github.com/kaminoer/Dream-Mouse/releases/download/v2.3/Dream.Mouse-v2.3-Windows.zip).
 2. Unzip the archive.
 3. Pair your controller in Windows via Bluetooth.
    - *Daydream*: Hold the Home (circle) button.
@@ -28,7 +28,7 @@ https://github.com/user-attachments/assets/4a714923-f988-408c-a8d3-2752c76ea7af
 
 ### Installation on Android (Phones & Tablets)
 
-1. Download the [apk file](https://github.com/kaminoer/Dream-Mouse/releases/download/v2.2/Dream.Mouse-v2.2-Android.apk).
+1. Download the [apk file](https://github.com/kaminoer/Dream-Mouse/releases/download/v2.3/Dream.Mouse-v2.3-Android.apk).
 2. Use a file browser to open the apk on your Android device.
 3. Install the app. You may have to allow installation from unknown sources.
 4. If you are on Android 13 or later, [allow restricted settings](https://support.google.com/android/answer/12623953?hl=en) for Dream Mouse. This is required to give the app permissions to Android Accessibility.
@@ -43,7 +43,7 @@ https://github.com/user-attachments/assets/4a714923-f988-408c-a8d3-2752c76ea7af
 
 There is a separate build optimized for Android TVs. This version handles pairing within the app to bypass limitations on some TV operating systems.
 
-1. [Download the Android TV APK](https://github.com/kaminoer/Dream-Mouse/releases/download/v2.2/Dream.Mouse-v2.2-Android-TVs.apk).
+1. [Download the Android TV APK](https://github.com/kaminoer/Dream-Mouse/releases/download/v2.3/Dream.Mouse-v2.3-Android-TVs.apk).
 2. Install the APK on your TV.
 3. Open Dream Mouse. When asked, give the app permission to search for nearby devices (on older Android versions this is often simply called Bluetooth and/or Location) and show notifications.
 5. Click **Enable Accessibility**.
@@ -92,7 +92,7 @@ Go to the **Button Bindings** tab to remap any button on the controller to:
 - **Keyboard Keys**: Enter, Space, Esc, Arrows, etc.
 - **System Actions**: Copy, Paste, Alt-Tab, Media Play/Pause, Volume Mute, etc.
 - **Trigger Modes**: Set actions to trigger once, hold (while pressed), or toggle (on/off).
-<img width="695" height="355" alt="obraz" src="https://github.com/user-attachments/assets/bbd5efce-3517-433a-9651-6f9ed61b8c39" />
+<img width="1149" height="581" alt="obraz" src="https://github.com/user-attachments/assets/6e00b991-5029-43df-abe5-e37d2c8d1bdb" />
 
 
 ### Radial Menu
@@ -101,8 +101,8 @@ Bind any button to the **Radial Menu** action to unlock 8 extra virtual buttons.
 2. Move your mouse towards a slice (Play, Copy, Paste, etc.).
 3. Release the button to execute the action.
 You can customize the labels, colors, and actions for each slot in the **Radial Menu** tab.
-<img width="695" height="393" alt="radial_win" src="https://github.com/user-attachments/assets/607cf5f2-c095-4cfa-9ca3-6d6a0316ff1b" />
-<img width="365" height="361" alt="radial2_win" src="https://github.com/user-attachments/assets/07b235bc-1889-4f18-bb73-bda21aa73597" />
+
+<img width="1154" height="712" alt="obraz" src="https://github.com/user-attachments/assets/0cb93c59-fd95-4346-ab11-2d57a54a893e" />
 
 ## Settings
 
@@ -132,6 +132,10 @@ You can customize the labels, colors, and actions for each slot in the **Radial 
 
 ### Windows Specific Settings
 - **Minimize to System Tray**: Sends the app to system tray instead of the taskbar when minimized. Useful if you want to hide it and keep it running in the background.
+- **Start minimized**. Lets you force Dream Mouse to start minimized. When combined with Minimize to System Tray, this lets you hide the app on boot, for example on PCs that you want to have Dream Mouse open and connected at all times.
+- **Auto-connect on app startup**. With this option enabled, when you open Dream Mouse, it will automatically keep trying to connect to a controller until a successful connection is established. You may find it useful on PCs that don't have any other input devices connected and want to rely on Dream Mouse for controls. You can add Dream Mouse to your autostart applications in Windows settings and enjoy a wireless pointer experience without any setup on boot.
+- **Auto-reconnect when controller disconnects**. With this option enabled, Dream Mouse will try to reconnect automatically until a connection with a controller is established. This triggers when connection status changes to disconnected for any reason.
+
 
 ## Tips
 
