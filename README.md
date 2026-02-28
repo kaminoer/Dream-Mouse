@@ -58,26 +58,6 @@ This is still a work in progress. See [here](https://github.com/kaminoer/Dream-M
 
 ## How to use
 
-> [!CAUTION]
-> Dream Mouse uses Android’s **Accessibility Service** and draws a system-level overlay to render a mouse cursor and simulate input events.
-> Because of this, **some banking, financial, and security-sensitive apps may block interaction while this app is running.**
->
-> Many banking apps implement security protections that:
->
-> - Detect active Accessibility Services
-> - Detect apps that draw overlays
-> - Block input when another app can observe or modify screen interactions
-> 
-> If you open a banking app while this accessibility service is active, you may see a message similar to:
->
-> "For security reasons, access is disabled on your device."
->
-> In most cases, functionality is restored after:
->
-> - Disabling Dream Mouse’s Accessibility Service, or
-> - Force stopping Dream Mouse  
-
-
 ### Connecting
 
 1. Turn on the controller and make sure it's paired (If your TV OS BT scan doesn't detect the controller, click **Scan & Pair** available in the Android TV Dream Mouse to pair the controller).
@@ -178,6 +158,37 @@ You can customize the labels, colors, and actions for each slot in the **Radial 
 
 **Mouse pointer is laggy, buttons lag or are often unresponsive?**
 - This usually means that your device is not powerful enough to process the input commands from Dream Mouse in real time. Older generation Android TV systems often exhibit this behavior. Another reason could be the quality of the Bluetooth connection.
+
+> [!CAUTION]
+> Dream Mouse uses Android’s **Accessibility Service** and draws a system-level overlay to render a mouse cursor and simulate input events.
+> Because of this, **some banking, financial, and security-sensitive apps may block interaction while this app is running.**
+>
+> Many banking apps implement security protections that:
+>
+> - Detect active Accessibility Services
+> - Detect apps that draw overlays
+> - Block input when another app can observe or modify screen interactions
+> 
+> If you open a banking app while this accessibility service is active, you may see a message similar to:
+>
+> "For security reasons, access is disabled on your device."
+>
+> In most cases, functionality is restored after:
+>
+> - Disabling Dream Mouse’s Accessibility Service, or
+> - Force stopping Dream Mouse
+>
+> This behavior is **intentional and controlled by the banking app**, not a bug in Dream Mouse.
+> Modern financial apps are designed to prevent overlay-based phishing attacks, tapjacking, accessibility-based malware, and automated input injection.
+> Since Dream Mouse uses similar system capabilities (for legitimate controller-based pointer control), it may be treated as a potential risk by those apps.
+>
+> Dream Mouse:
+> - Does not collect personal data
+> - Does not intercept credentials
+> - Does not transmit user input
+> - Runs entirely on-device
+>
+> However, individual apps may still restrict functionality as part of their internal security policies.
 
 ## Acknowledgments
 
