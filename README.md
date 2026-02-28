@@ -58,6 +58,26 @@ This is still a work in progress. See [here](https://github.com/kaminoer/Dream-M
 
 ## How to use
 
+> [!CAUTION]
+> Dream Mouse uses Android’s **Accessibility Service** and draws a system-level overlay to render a mouse cursor and simulate input events.
+> Because of this, **some banking, financial, and security-sensitive apps may block interaction while this app is running.**
+>
+> Many banking apps implement security protections that:
+>
+> - Detect active Accessibility Services
+> - Detect apps that draw overlays
+> - Block input when another app can observe or modify screen interactions
+> 
+> If you open a banking app while this accessibility service is active, you may see a message similar to:
+>
+> "For security reasons, access is disabled on your device."
+>
+> In most cases, functionality is restored after:
+>
+> - Disabling Dream Mouse’s Accessibility Service, or
+> - Force stopping Dream Mouse  
+
+
 ### Connecting
 
 1. Turn on the controller and make sure it's paired (If your TV OS BT scan doesn't detect the controller, click **Scan & Pair** available in the Android TV Dream Mouse to pair the controller).
