@@ -95,7 +95,7 @@ Go to the **Button Bindings** tab to remap any button on the controller to:
 <p align="center"><img width="1149" height="581" alt="bindings_win" src="https://github.com/user-attachments/assets/6e00b991-5029-43df-abe5-e37d2c8d1bdb" /></p>
 <p align="center"><i>Button Bindings interface on Windows</i></p>
 
-<p align="center"><img width="477" height="1039" alt="bindings_android" src="https://github.com/user-attachments/assets/da83563c-fbfb-48ec-8bde-0eea5ded2e5c" /></p>
+<p align="center"><img width="250" height="500" alt="bindings_android" src="https://github.com/user-attachments/assets/da83563c-fbfb-48ec-8bde-0eea5ded2e5c" /></p>
 <p align="center"><i>Button Bindings interface on Android</i></p>
 
 
