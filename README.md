@@ -180,7 +180,7 @@ You can customize the labels, colors, and actions for each slot in the **Radial 
 >
 > In most cases, functionality is restored after:
 >
-> - Disabling Dream Mouse’s Accessibility Service, or
+> - Disabling Dream Mouse’s Accessibility Service (toggle in Options), or
 > - Force stopping Dream Mouse
 >
 > This behavior is **intentional and controlled by the banking app**, not a bug in Dream Mouse.
