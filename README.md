@@ -19,7 +19,7 @@ https://github.com/user-attachments/assets/4a714923-f988-408c-a8d3-2752c76ea7af
 
 ### Installation on Windows
 
-1. Download the [zip file](https://github.com/kaminoer/Dream-Mouse/releases/download/v2.3/Dream.Mouse-v2.3-Windows.zip).
+1. Download the [zip file](https://github.com/kaminoer/Dream-Mouse/releases/download/v3.0b/Dream.Mouse-v2.3a-Windows.zip).
 2. Unzip the archive.
 3. Pair your controller in Windows via Bluetooth.
    - *Daydream*: Hold the Home (circle) button.
@@ -28,7 +28,7 @@ https://github.com/user-attachments/assets/4a714923-f988-408c-a8d3-2752c76ea7af
 
 ### Installation on Android (Phones & Tablets)
 
-1. Download the [apk file](https://github.com/kaminoer/Dream-Mouse/releases/download/v2.3/Dream.Mouse-v2.3-Android.apk).
+1. Download the [apk file](https://github.com/kaminoer/Dream-Mouse/releases/download/v3.0b/Dream.Mouse-v3.0b-Android.apk).
 2. Use a file browser to open the apk on your Android device.
 3. Install the app. You may have to allow installation from unknown sources.
 4. If you are on Android 13 or later, [allow restricted settings](https://support.google.com/android/answer/12623953?hl=en) for Dream Mouse. This is required to give the app permissions to Android Accessibility.
@@ -84,7 +84,7 @@ Controls are fully customizable in the **Button Bindings** tab (Windows and Linu
 - On Android and Windows, you can enable Touchpad scrolling in gyro mouse mode and swipe up or down on the touchpad to scroll.
 - On Android TV, you can enable Touchpad scrolling in gyro mouse mode and swipe up, down, left, or right on the touchpad to move focus to the next available tile or card in that direction.
 
-## Windows and Linux exclusive features
+## Features
 
 ### Custom Button Bindings
 Go to the **Button Bindings** tab to remap any button on the controller to:
@@ -95,7 +95,7 @@ Go to the **Button Bindings** tab to remap any button on the controller to:
 <img width="1149" height="581" alt="obraz" src="https://github.com/user-attachments/assets/6e00b991-5029-43df-abe5-e37d2c8d1bdb" />
 
 
-### Radial Menu
+### Radial Menu (Windows and Linux only)
 Bind any button to the **Radial Menu** action to unlock 8 extra virtual buttons.
 1. Hold the bound button to make the menu appear at your cursor.
 2. Move your mouse towards a slice (Play, Copy, Paste, etc.).
