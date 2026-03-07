@@ -28,7 +28,7 @@ https://github.com/user-attachments/assets/4a714923-f988-408c-a8d3-2752c76ea7af
 
 ### Installation on Android (Phones & Tablets)
 
-1. Download the [apk file](https://github.com/kaminoer/Dream-Mouse/releases/download/v3.0b/Dream.Mouse-v3.0b-Android.apk).
+1. Download the [apk file](https://github.com/kaminoer/Dream-Mouse/releases/download/v3.1-Android/Dream.Mouse-v3.1-Android.apk).
 2. Use a file browser to open the apk on your Android device.
 3. Install the app. You may have to allow installation from unknown sources.
 4. If you are on Android 13 or later, [allow restricted settings](https://support.google.com/android/answer/12623953?hl=en) for Dream Mouse. This is required to give the app permissions to Android Accessibility.
