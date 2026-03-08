@@ -1,8 +1,8 @@
 # Dream Mouse for Windows/Android/Android TVs/Linux
-<p align="center"><img width="150" height="150" alt="icon" src="https://github.com/user-attachments/assets/0203090e-a42c-4221-a4bc-7946ad192229" /><br>Dream Mouse turns your Google Daydream or Samsung Gear VR controller into a Bluetooth wireless air mouse on Windows, Linux, and Android devices. You can move the cursor by swiping on the touchpad or by waving the controller around (gyro mode). It features a fully customizable input system, letting you bind buttons to OS actions, keyboard keys, media controls, and a radial menu for quick actions (desktop only).
+<p align="center"><img width="150" height="150" alt="icon" src="https://github.com/user-attachments/assets/0203090e-a42c-4221-a4bc-7946ad192229" /><br>Dream Mouse turns your Google Daydream or Samsung Gear VR controller into a Bluetooth wireless air mouse on Windows, Linux, and Android devices. You can move the cursor by swiping on the touchpad or by waving the controller around (gyro mode). It features a fully customizable input system, letting you bind buttons to OS actions, keyboard keys, media controls, app launchers, and a radial menu for quick actions (desktop only).
 </p>
-  
-https://github.com/user-attachments/assets/fd794340-fdf4-462a-b036-5d934026028d 
+
+https://github.com/user-attachments/assets/fd794340-fdf4-462a-b036-5d934026028d
 
 <p align="center"><i>GearVR on Android</i></p>
 
@@ -49,7 +49,7 @@ There is a separate build optimized for Android TVs. This version handles pairin
 5. Click **Enable Accessibility**.
 6. If your Android TV exposes Accessibility settings for apps in the OS Settings, click **OPEN SETTINGS**, find Dream Mouse in Downloaded Apps and enable it to give permission to control the mouse. If your TV OS hides Accessibility settings (common on most Android/Fire TV builds), you may need to grant permission via ADB:
    `adb shell pm grant com.dreammouse android.permission.WRITE_SECURE_SETTINGS`
-   
+
    Run this command from a computer or another device connected to your TV via ADB over WiFi and click **TRY ENABLE** in Dream Mouse.
 
 ### Installation on Linux
@@ -68,13 +68,13 @@ This is still a work in progress. See [here](https://github.com/kaminoer/Dream-M
 
 ### Default Controls
 
-Controls are fully customizable in the **Button Bindings** tab (Windows and Linux only). Here are the defaults:
+Controls are fully customizable in the **Button Bindings** section. On Android, each button supports short press, long press, and double press actions. Here are the defaults:
 
 | Daydream | Gear VR | Default Action |
 |----------|---------|----------------|
 | **Touchpad** | **Touchpad** | Move cursor (Swipe) |
 | **Press Touchpad** | **Trigger** / **Press Touchpad** | Left Click/Tap, hold the button on Android for long press |
-| **Tap Touchpad** | **Tap Touchpad** | Left Click/Tap |
+| **Tap Touchpad** | **Tap Touchpad** | Left Click/Tap|
 | **Home Button (○)** | **Home Button (🏠)** | - Windows, Linux: Right Click <br> - Android/Android TV: Press once to go back, hold to go home |
 | **App Button** (—) | **Back Button** (↩) | Toggle Gyro Mouse Mode. Wave the controller to move the cursor |
 | **Vol Up** | **Vol Up** | Scroll Up |
@@ -87,10 +87,22 @@ Controls are fully customizable in the **Button Bindings** tab (Windows and Linu
 ## Features
 
 ### Custom Button Bindings
-Go to the **Button Bindings** tab to remap any button on the controller to:
-- **Mouse Buttons**: Left/Right/Middle click, scroll.
+Go to the **Button Bindings** section to remap any button on the controller. On Android, each of the 6 physical buttons (Clickpad, App/Back, Home, Volume Up, Volume Down, and Trigger) supports three press types: **short press**, **long press**, and **double press**, giving you up to 18 customizable slots.
+
+Available actions include:
+- **Mouse**: Left Click, Right Click
+- **Navigation**: Back, Home, App Switcher (Recents), Notification Shade, Quick Settings
+- **Scrolling**: Scroll Up/Down/Left/Right
+- **Media**: Play/Pause, Next/Previous Track
+- **Volume**: Volume Up/Down
+- **Display**: Brightness Up/Down, Screen On/Off
+- **D-Pad**: DPad Up/Down/Left/Right
+- **Input**: Toggle Gyro Mouse, AI Assistant, Voice Typing
+- **Apps**: Launch any installed app
+
+On Windows and Linux, you can also bind:
 - **Keyboard Keys**: Enter, Space, Esc, Arrows, etc.
-- **System Actions**: Copy, Paste, Alt-Tab, Media Play/Pause, Volume Mute, etc.
+- **System Actions**: Copy, Paste, Alt-Tab, etc.
 - **Trigger Modes**: Set actions to trigger once, hold (while pressed), or toggle (on/off).
 <p align="center"><img width="1149" height="581" alt="bindings_win" src="https://github.com/user-attachments/assets/6e00b991-5029-43df-abe5-e37d2c8d1bdb" /></p>
 <p align="center"><i>Button Bindings interface on Windows</i></p>
@@ -109,31 +121,40 @@ You can customize the labels, colors, and actions for each slot in the **Radial 
 
 <img width="1154" height="712" alt="obraz" src="https://github.com/user-attachments/assets/0cb93c59-fd95-4346-ab11-2d57a54a893e" />
 
+### Test Mode
+Enable **Test Mode** in the Options section to see a real-time controller state visualizer. It displays touch point position, button press states, and movement arrows. Test mode disables pointer control so you can inspect raw input without moving the cursor.
+
 ## Settings
 
 ### Controller Connection
 - **Controller Type**: Defaults to **Auto-detect**, but you can force Daydream or Gear VR mode if needed.
 - **Recalibrate**: Recalibrate on demand if drift occurs. Remember to put the controller on a flat surface before you click it.
-- **Battery Status**: View current controller battery level.
+- **Battery Status**: View current controller battery level with a color-coded indicator. The app alerts you when battery drops below 15%.
 
 ### Controller Options
 - **Touch Sensitivity**: Speed of the touchpad cursor.
 - **Gyro X/Y Speed**: Sensitivity of the motion controls.
-- **Deadzone**: Helps prevent drift by ignoring tiny unintentional movements.
-- **Touchpad scrolling**: Lets you use the touchpad to scroll when gyro mouse mode is enabled.
-- **Touchpad tap**: Controls whether tapping the touchpad to perform an action is enabled in touchpad mouse mode and gyro mouse mode.
+- **Gyro Deadzone**: Helps prevent drift by ignoring tiny unintentional gyro movements.
+- **Touch Deadzone**: Minimum touchpad movement required before the cursor responds.
+- **Touchpad scrolling**: Lets you use the touchpad to scroll when gyro mouse mode is enabled. On Android, horizontal scrolling can be enabled separately.
+- **Touchpad tap**: Controls whether tapping the touchpad performs an action. The tap action is configurable (defaults to Left Click). Separate settings are available for touchpad mouse mode and gyro mouse mode.
 
 ### Android Specific Settings
-- **Continuous Scroll**: Lets you hold the volume button to keep scrolling.
+- **Reverse Scroll**: Inverts the scroll direction.
 - **Auto Reconnect**: Automatically reconnect if connection is lost.
 - **Quick Actions**: Disconnect or recalibrate directly from the notification.
 - **Enable Cursor**: Shows or hides the mouse cursor overlay. The cursor auto-hides when no device is connected.
 - **Cursor Size**: Adjusts how big the pointer looks.
-- **Scroll Strength**: How far page scrolls per click.
+- **Scroll Strength**: How far page scrolls.
 - **Reset to Defaults**: Quickly reset all sliders and toggles.
 - **GearVR Gyro Scale (Gear VR only)**: Adjust raw gyro scale before deadzone offsets.
-- **Acceleration Curve (Experimental)**: Set acceleration from linear (1.0) to faster speeds.
-- **Cursor Smoothing (Experimental)**: Applies an EMA filter to reduce jitter.
+- **Acceleration Curve**: Set pointer acceleration from linear (1.0) to faster speeds.
+- **Cursor Smoothing**: Applies an EMA filter to reduce jitter.
+- **Keep Screen On**: Prevents the screen from turning off while Dream Mouse is running.
+- **Stop Service on Exit**: Stops the accessibility service when closing the app. Useful for compatibility with banking and security apps that refuse to work if an accessibility service is running.
+- **Gyro Touchpad D-Pad**: In gyro mouse mode, tap on the touchpad edges (top, down, left, right) to send D-Pad directional input.
+- **Gyro Touchpad Tap Hold**: In gyro mouse mode, tap and hold on the touchpad to perform continuous actions.
+- **Advanced Tuning**: A hidden menu with 16 fine-tunable parameters for gesture detection (tap timing, drag thresholds, fling behavior, scroll sensitivity, etc.). Access it by tapping the version number 5 times.
 
 ### Windows Specific Settings
 - **Minimize to System Tray**: Sends the app to system tray instead of the taskbar when minimized. Useful if you want to hide it and keep it running in the background.
@@ -147,7 +168,7 @@ You can customize the labels, colors, and actions for each slot in the **Radial 
 - **Calibration matters**: Keep the controller still and flat when connecting and calibrating.
 - **Drifting?** If the cursor starts drifting in gyro mode, try increasing the **Gyro Deadzone** or recalibrating.
 - **Radial Menu** (Windows and Linux only): Try binding the Radial Menu to the "Home" or "App" button for quick access to media controls or copy/paste while browsing.
-- **Battery**: Percentage status is displayed in the app. If things get wonky, check if you need a charge or a new battery.
+- **Battery**: Percentage status is displayed in the app. You'll get a low battery alert at 15% on Android.
 
 ## Troubleshooting
 
@@ -164,26 +185,30 @@ You can customize the labels, colors, and actions for each slot in the **Radial 
 **Mouse pointer is laggy, buttons lag or are often unresponsive?**
 - This usually means that your device is not powerful enough to process the input commands from Dream Mouse in real time. Older generation Android TV systems often exhibit this behavior. Another reason could be the quality of the Bluetooth connection.
 
+**Banking or security apps not working?**
+- Turn on **Disable Accessibility on Exit** in Options, then close Dream Mouse before opening the banking app.
+- Alternatively, disable Dream Mouse's Accessibility Service manually in Android settings.
+
 > [!CAUTION]
-> Dream Mouse uses Android’s **Accessibility Service** and draws a system-level overlay to render a mouse cursor and simulate input events.
-> Because of this, **some banking, financial, and security-sensitive apps may block interaction while this app is running.**
+> Dream Mouse uses Android's Accessibility Service and draws a system-level overlay to render a mouse cursor and simulate input events.
+> Because of this, some banking, financial, and security-sensitive apps may block interaction while this app is running.
 >
 > Many banking apps implement security protections that:
 >
 > - Detect active Accessibility Services
 > - Detect apps that draw overlays
 > - Block input when another app can observe or modify screen interactions
-> 
+>
 > If you open a banking app while this accessibility service is active, you may see a message similar to:
 >
 > "For security reasons, access is disabled on your device."
 >
 > In most cases, functionality is restored after:
 >
-> - Disabling Dream Mouse’s Accessibility Service (toggle in Options), or
+> - Disabling Dream Mouse's Accessibility Service (toggle in Options and close the app), or
 > - Force stopping Dream Mouse
 >
-> This behavior is **intentional and controlled by the banking app**, not a bug in Dream Mouse.
+> This behavior is intentional and controlled by the banking app, not a bug in Dream Mouse.
 > Modern financial apps are designed to prevent overlay-based phishing attacks, tapjacking, accessibility-based malware, and automated input injection.
 > Since Dream Mouse uses similar system capabilities (for legitimate controller-based pointer control), it may be treated as a potential risk by those apps.
 >
@@ -199,4 +224,4 @@ You can customize the labels, colors, and actions for each slot in the **Radial 
 
 - [Daydream2HID](https://hardfault.life/p/daydream-controller) for Daydream reverse engineering info.
 
-*Found a bug? Got a feature idea? Open an issue or PR!*
+*Found a bug? Got a feature idea? Open an issue!*
