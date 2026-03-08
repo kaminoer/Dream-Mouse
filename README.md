@@ -14,7 +14,7 @@ https://github.com/user-attachments/assets/4a714923-f988-408c-a8d3-2752c76ea7af
 
 ### What you need
 
-- **Google Daydream controller** OR **Samsung Gear VR Controller**
+- **Google Daydream controller** or **Samsung Gear VR Controller**
 - Windows or Linux PC with Bluetooth (macOS support coming soon) or an Android 8.0+ phone/tablet/TV
 
 ### Installation on Windows
@@ -109,8 +109,6 @@ On Windows and Linux, you can also bind:
 
 <p align="center"><img width="250" height="500" alt="bindings_android" src="https://github.com/user-attachments/assets/da83563c-fbfb-48ec-8bde-0eea5ded2e5c" /></p>
 <p align="center"><i>Button Bindings interface on Android</i></p>
-
-
 
 ### Radial Menu (Windows and Linux only)
 Bind any button to the **Radial Menu** action to unlock 8 extra virtual buttons.
