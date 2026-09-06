@@ -19,7 +19,7 @@ https://github.com/user-attachments/assets/4a714923-f988-408c-a8d3-2752c76ea7af
 
 ### Installation on Windows
 
-1. Download the [zip file](https://github.com/kaminoer/Dream-Mouse/releases/download/v3.0b/Dream.Mouse-v2.3a-Windows.zip).
+1. Download the [zip file](https://github.com/kaminoer/Dream-Mouse/releases/download/v2.4a-Windows/Dream.Mouse-2.4a-Windows.zip).
 2. Unzip the archive.
 3. Pair your controller in Windows via Bluetooth.
    - *Daydream*: Hold the Home (circle) button.
